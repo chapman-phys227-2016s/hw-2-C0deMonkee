@@ -28,8 +28,8 @@ def part_a():
         if(i < 1):
             continue
         split = line.split()
-        x = split[0]
-        y = split[1]
+        x.append(float(split[0]))
+        y.append(float(split[1]))
     plt.plot(x,y, 'ro')
     return x,y
 def part_b():
@@ -50,4 +50,3 @@ def part_b():
     plt.plot(graph[0], graph[1], 'ro', graph[0], y1_fitted, 'b-')
     plt.plot(graph[0], graph[1], 'ro', graph[0], y2_fitted, 'b-')
     plt.plot(graph[0], graph[1], 'ro', graph[0], y3_fitted, 'b-')
-    plot.show()
