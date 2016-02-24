@@ -1,8 +1,8 @@
 # PHYS227 HW 2
 
-**Author:** _\<your name\>_
+**Author:** Austin Ayers
 
-[![Build Status](https://travis-ci.org/chapman-phys227-2016s/hw-2-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-phys227-2016s/hw-2-YOURNAME)
+[![Build Status](https://travis-ci.org/chapman-phys227-2016s/hw-2-C0deMonkee.svg?branch=master)](https://travis-ci.org/chapman-phys227-2016s/hw-2-C0deMonkee)
 
 **Due date:** 2016/02/16
 
@@ -20,7 +20,7 @@ Finally, to cleanly present your work, create a Jupyter notebook ```hw2.ipynb```
 
 ## Assessment
 
-_\<Analyze what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.\>_
+The work was easy, but not having direct command line output for graphing made bug testing exceedingly difficult
 
 ## Honor Pledge
 
@@ -31,4 +31,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-_\<your name\>_
+Austin Ayers
