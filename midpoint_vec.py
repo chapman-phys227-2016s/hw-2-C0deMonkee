@@ -14,29 +14,32 @@ Description: Implementing a prime sieve
 """
 import sympy as sp
 import numpy as np
+def function(x):
+    return x**2 + 2
 
 def midpointint(f,a,b,n):
     """
     Computes the midpoint rule
     """
     s = 0
+    h = (b-a) / float(n)
     sum_array = []
     for i in range(1,n):
         s += f(a-0.5*h+i*h)
         sum_array.append(f(a-0.5*h+i*h))
-    s *= (b-a)/n
+    s *= (b-a)/float(n)
     return s, sum_array
 def sum_vectorized(f,a,b,n):
     """
     Midpoint rule with Python's built in sum
     """
-    s = sum(midpoint(f,a,b,n))[1]
-    s *= (b-a)/n
+    s = sum(midpointint(f,a,b,n)[1])
+    s *= (b-a)/float(n)
     return s
 def sum_numpy(f,a,b,n):
     """
     Midpoint rule for Numpy's sum
     """
-    s = np.sum(midpoint(f,a,b,n))[1]
-    s *= (b-a)/n
+    s = np.sum(midpointint(f,a,b,n)[1])
+    s *= (b-a)/float(n)
     return s

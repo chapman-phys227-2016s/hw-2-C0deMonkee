@@ -20,9 +20,9 @@ import numpy as np
 def absolute(x):
     return abs(x)
 def problem_5_25():
-    L2.graph(absolute, 2, -2, 2)
-    L2.graph(absolute, 4, -2, 2)
-    L2.graph(absolute, 6, -2, 2)
-    L2.graph(absolute, 10, -2, 2)
-    L2.graph(absolute, 13, -2, 2)
-    L2.graph(absolute, 20, -2, 2)
+    L2.graph(absolute, 2, -2, 2, [-3,3,0,1])
+    L2.graph(absolute, 4, -2, 2, [-3,3,0,1])
+    L2.graph(absolute, 6, -2, 2, [-3,3,0,1])
+    L2.graph(absolute, 10, -2, 2, [-3,3,0,1])
+    L2.graph(absolute, 13, -2, 2, [-3,3,0,1])
+    L2.graph(absolute, 20, -2, 2, [-3,3,0,1])
